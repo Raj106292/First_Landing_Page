@@ -18,3 +18,27 @@ section{
     background-size: cover;
     background-position: center;
 }
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding:  30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo_text{
+    padding-left: 10px;
+}
