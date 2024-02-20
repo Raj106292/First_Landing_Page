@@ -93,3 +93,20 @@ header .navigation a:hover{
     font-weight: 500;
     margin-bottom: 40px;
 }
+
+.content .info-btn{
+    color: #fff;
+    background: #226A80;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.content .info-btn:hover{
+    background: #0C4F60;
+}
