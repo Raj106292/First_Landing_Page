@@ -110,3 +110,26 @@ header .navigation a:hover{
 .content .info-btn:hover{
     background: #0C4F60;
 }
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icons a{
+    position: relative;
+    color: green;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+
+.media-icons a:hover{
+    transform: scale(1.5);
+}
